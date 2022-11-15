@@ -1,0 +1,20 @@
+title: Nicholas Yeung
+description: Philosophy & Statistics Student @UIUC
+site_title: 'Nicholas Yeung'
+
+# Build settings
+markdown: kramdown
+exclude: [vendor/ruby]
+
+# Personalization
+github_username: hwacc-y
+email: ynyeung25@gmail.com
+keybase_username: yyeung25
+twitter_username: 
+reddit_username: 
+
+# absolute or relative
+profile_picture: assets/images/self.jpg
+
+# Google Analytics ID
+google_analytics: 
