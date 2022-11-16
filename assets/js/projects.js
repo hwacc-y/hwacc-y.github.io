@@ -11,7 +11,7 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'assets/images/mentors.jpg',
+            image: 'assets/images/tang.jpg',
             link: 'https://github.com/hwacc-y/Tangerine',
             title: 'Tangerine',
             demo: false,
@@ -20,7 +20,7 @@ let render_projects = (slug) => {
             categories: ['data_e']
         },
         {
-            image: 'assets/images/mobile-landscape.jpg',
+            image: 'assets/images/mkey.jpg',
             link: 'https://github.com/hwacc-y/MkeyCMkeyClass',
             title: 'Simian Facial Classifer',
             demo: false,
@@ -29,7 +29,7 @@ let render_projects = (slug) => {
             categories: ['featured', 'data_a']
         },
         {
-            image: 'assets/images/collage.jpg',
+            image: 'assets/images/graph_stat.jpg',
             link: 'https://github.com/hwacc-y/stat_207_final',
             title: 'Spotify Frequency Analysis',
             demo: false,
@@ -38,7 +38,7 @@ let render_projects = (slug) => {
             categories: ['featured', 'data_a']
         },
         {
-            image: 'assets/images/pi-cloud.jpg',
+            image: 'assets/images/whitefox65.jpg',
             link: 'hwacc-y.github.io',
             title: 'Modding the WhiteFox Keyboard',
             demo: false,
@@ -47,13 +47,22 @@ let render_projects = (slug) => {
             categories: ['diy']
         },
         {
-            image: 'assets/images/koalamate.png',
-            link: 'https://github.com/abhn/koalamate',
+            image: 'assets/images/egg.png',
+            link: 'https://github.com/hwacc-y',
             title: 'STORM',
             demo: false,
             technologies: ['OSIER', 'python','Genetic Algorithm'],
             description: "A engery optimization modelling program used for the modelling of routine egg consumption and restocking",
             categories: ['research', 'diy','featured']
+        },
+        {
+            image: 'assets/images/graph_r.png',
+            link: 'https://coursera.org/share/17d67aefa8768d43e13e47550add82f1',
+            title: 'Business Analytics Visualization using R',
+            demo: false,
+            technologies: ['R', 'Data Visualization'],
+            description: "Visualized store inventory data using R",
+            categories: ['data_a','featured']
         },
     ]
 
