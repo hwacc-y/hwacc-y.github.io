@@ -25,7 +25,7 @@ let render_projects = (slug) => {
             title: 'Simian Facial Classifer',
             demo: false,
             technologies: ['Deep Learning', 'Julia'],
-            description: "",
+            description: "A simian visual classifier with an accuracy over 0.95, using a 10 distinct simian classification datasets",
             categories: ['featured', 'data_a']
         },
         {
@@ -34,7 +34,7 @@ let render_projects = (slug) => {
             title: 'Spotify Frequency Analysis',
             demo: false,
             technologies: ['Data Analysis', 'OpenCV'],
-            description: "",
+            description: "Ongoing",
             categories: ['featured', 'data_a']
         },
         {
@@ -56,7 +56,7 @@ let render_projects = (slug) => {
             categories: ['research', 'diy','featured']
         },
         {
-            image: 'assets/images/graph_r.png',
+            image: 'assets/images/graph_r.jpeg',
             link: 'https://coursera.org/share/17d67aefa8768d43e13e47550add82f1',
             title: 'Business Analytics Visualization using R',
             demo: false,
