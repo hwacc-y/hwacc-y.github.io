@@ -17,7 +17,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['Python', 'Excel', 'Discord'],
             description: "A purchase order handling bot that updates members of the Car team on their purchased item status",
-            categories: ['data_e']
+            categories: ['featured','data_e']
         },
         {
             image: 'assets/images/mkey.jpg',
@@ -35,7 +35,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['Data Analysis', 'OpenCV'],
             description: "Ongoing",
-            categories: ['featured', 'data_a']
+            categories: ['data_a']
         },
         {
             image: 'assets/images/whitefox65.jpg',
