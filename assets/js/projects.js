@@ -38,12 +38,12 @@ let render_projects = (slug) => {
             categories: ['data_a']
         },
         {
-            image: 'assets/images/whitefox65.jpg',
+            image: 'assets/images/whitefox65.jpeg',
             link: 'hwacc-y.github.io',
             title: 'Modding the WhiteFox Keyboard',
             demo: false,
             technologies: ['Soldering'],
-            description: "Modded the 65% WhiteFox Keyboard to hotswappable, installed LEDs, replaced the switches and lubed the stabilizers.",
+            description: "Modded the 65% WhiteFox Keyboard to hotswappable, installed LEDs, replaced the switches and lubed the stabilizers.Thanks to Rix for taking the photo.",
             categories: ['diy']
         },
         {
