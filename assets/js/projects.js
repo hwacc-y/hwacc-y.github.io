@@ -38,7 +38,7 @@ let render_projects = (slug) => {
             categories: ['data_a']
         },
         {
-            image: 'assets/images/whitefox65.jpg',
+            image: 'assets/images/whitefox65.jpeg',
             link: 'hwacc-y.github.io',
             title: 'Modding the WhiteFox Keyboard',
             demo: false,
