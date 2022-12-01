@@ -31,7 +31,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/graph_stat.jpg',
             link: 'https://github.com/hwacc-y/stat_207_final',
-            title: 'Spotify Frequency Analysis',
+            title: 'HOLC grading and Ethnic population data analysis',
             demo: false,
             technologies: ['Data Analysis', 'OpenCV'],
             description: "Ongoing",
