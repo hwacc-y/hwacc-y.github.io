@@ -279,6 +279,7 @@ DEPENDENCIES
   jekyll-sitemap
   kramdown-parser-gfm
   mini_magick
+  nokogiri (>= 1.14.3)
   tzinfo-data
   webrick
 
