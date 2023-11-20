@@ -8,7 +8,7 @@ weight: 3
 # **About Me**
 
 Hi I am **{{ site.author.name }}**,<br>
-possibly a corgi, most definitely not!  Either way there are really neat things I am up to!
+currently student at the University of Illinois Urbana Champaign, majoring in Information Sciences. I am really passionate about utilizing data to find new insights and present my findings in understandable and unique ways. 
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}

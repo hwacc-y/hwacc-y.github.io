@@ -5,12 +5,11 @@
 # NOTE: it looks like you need to rebuild + repush everytime you update this _config.yml file
 
 ### Site Settings ###
-title               : IS445 Jekyll Template 
-description         : >-
-                      Still in progress
+title               : Nicholas' Project Page
+description         : Welcome to my site! On this site I try to put up interesting projects that I have worked on whether its for class or outside of school.
 baseurl             : ""   # Change to empty quotes if you are hosting your site at <your-username>.github.io directly,
 #                                             otherwise will be hosted at <your-username>.github.io/{{base_url}}
-repository          : hwacc-y.github.io   # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects) -- for example, I would put "jnaiman" without the quotes after the ":" here
+repository          : hwacc-y/hwacc-y.github.io   # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects) -- for example, I would put "jnaiman" without the quotes after the ":" here
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
@@ -35,7 +34,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Nicholas Yeung
-  image             : https://github.com/hwacc-y/arfc.github.io/blob/source/img/people/yeungn.jpg
+  image             : assets/jpgs/default.jpg
 #  behance           : your_username
 # dribbble          : your_username
 #  email             : username@domain.com
