@@ -1,9 +1,19 @@
-- name: Adobe Photoshop
+- name: SPSS
   percentage: 95
   level: Expert
   color: info
 
-- name: Adobe Illustrator
+- name: Salesforce
+  percentage: 85
+  level: Competent
+  color: success
+
+- name: Agile
+  percentage: 85
+  level: Competent
+  color: Info
+
+- name: Excel
   percentage: 90
   level: Expert
   color: success

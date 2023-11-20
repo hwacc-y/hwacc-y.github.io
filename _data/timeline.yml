@@ -1,20 +1,28 @@
 - title: Student, UIUC ISchool
   from: 2021
   to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: I major in Information Sciences at the UIUC ISchool, with a concentration in 
+               Data analytics and Data-Societal interaction. I am also pursuing   
+               minors in both statistics and business. On campus, I am the president of the 
+               Hong Kong Student Association and I work as the Strategy team lead on the 
+               Illini EV Concept Business team.
 
-- title: Support Specialist, DS Sports Ventures
-  from: March 2023
+- title: Support Specialist (Internship), DS Sports Ventures
+  from: June 2023
   to: August 2023
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: Working a support specialist, my responsibilities were to monitor softball and baseball analytics systems 
+               remotely through ssh commands along with analyzing incoming system analytics data to maintain peak system performance. 
+               One of the projects I worked on was a preventative data analytic project, where I implemented an early warning 
+               teams bot for analytics systems that were going to be affected by severe weather conditions. Allowing team members 
+               to patch the issues before they affect the stakeholders and provide stakeholders updates on their analytic systems.
+
+- title: Undergraduate Research Assistant, Advance Reactors and Fuel Cycles UIUC Dept of NPRE
+  from: November 2021
+  to: March 2023
+  description: Working as an undergraduate research assitant for ARFC involves doing technical editing for graduate students,  
+               finding data for projects and coding some parts of the project. During my time at ARFC I coded parts of larger 
+               technical projects like the H2 illinois project and presented some of the findings at the American Nuclear 
+               Society Student Conference in 2022.
 
 
 
