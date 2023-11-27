@@ -13,15 +13,16 @@ custom_js:
 
 # IS 457 Visualizations 
 
-## Visualization version 1
+## Visualization 1
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/IS457-fin-v1.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/IS457-fin-viz1.json" style="width: 100%"></vegachart>
+Figure 1: Visualization of x v y
 
 
-
-## Visualization version 2
-<!-- <vegachart schema-url="{{ site.baseurl }}/assets/json/IS457-fin-v2.json" style="width: 100%"></vegachart> -->
-
+## Visualization 2
+<vegachart schema-url="{{ site.baseurl }}/assets/json/IS457-fin-viz2.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/IS445-hw8-viz1.json" style="width: 100%"></vegachart>
+Figure 2: Visualization of x v y
 
 ## The Data & Methods
 
