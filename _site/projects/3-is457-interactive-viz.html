@@ -22,12 +22,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="HW8">
-  <meta property="og:description" content="This is my IS 445 homework 8 project that uses vega-lite for interactive viz!">
+  <meta property="og:title" content="IS 457 Final Project">
+  <meta property="og:description" content="This is my IS 457 visualization, currently still work in progress!">
   <meta property="og:image" content="assets/pngs/css_scatterplot.png">
 
-  <title>HW8</title>
-  <meta name="description" content="This is my IS 445 homework 8 project that uses vega-lite for interactive viz!">
+  <title>IS 457 Final Project</title>
+  <meta name="description" content="This is my IS 457 visualization, currently still work in progress!">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
 
@@ -74,31 +74,27 @@
 
 </nav>
     <div class="col-lg-10 mx-auto mt-5 markdown-body">
-  <h1 id="hw-81-jekyll">HW 8.1 Jekyll</h1>
+  <h1 id="is-457-visualizations">IS 457 Visualizations</h1>
 
-<h2 id="visualization-1">Visualization 1</h2>
+<h2 id="visualization-version-1">Visualization version 1</h2>
 
-<vegachart schema-url="/assets/json/IS445-hw8-viz1.json" style="width: 100%"></vegachart>
+<vegachart schema-url="/assets/json/IS457-fin-v1.json" style="width: 100%"></vegachart>
 
-<p>This visualization shows the percentage of valid license holders for each of the license listed. The visualization has a slider bar that adjusts the range of percentage of valid license holders which changes the number of bars being visualized based on what percentage of valid license holders they have.
-For this visualization I chose to use the quantitative encoding for the ratio of valid license holders and nominal encoding for the type of licenses. I decided to just use the standard blue color scheme as I felt the number of different licenses would be overwhelming if each bar had it’s own color. I utilized the transformation of filter to dynamically change the number of bars based on the value of the slider. I also used pandas to calculate the number of valid  license holders and then used the groupby function to calculate the sum of the valid holders. Dividing the sum of the valid holders over the number of license holders for each type of license gave me the ratio of license holder per license. I chose to implement the slider bar for this plot because the adjustable number of bars can allow the viewer to see the contrast of how certain professions have a higher precentage of valid license holders.</p>
-
-<h2 id="visualization-2">Visualization 2</h2>
-<vegachart schema-url="/assets/json/IS445-hw8-viz2.json" style="width: 100%"></vegachart>
-<p>This visualization shows the contrast between the license effective date and the license expiration date in scatter plot. Putting the cursor over each point shows the description of the license holder’s profession, the orginal issue date, expiration date, effective date and if they were ever disciplined. For this visualization I chose to make the dates temporal because they were dates and it was more sensical to graph the points chronologically. The rest of the data were all nominal because they were all categorical and unordered. For the points plotted, I chose to not use any exotic color scheme because there were so many points I felt that any exotic colors would add to the confusion. On the python side, I used pandas to filter out any rows with licenses that did not work with controlled substances because there were just much more licenses that did not work with control substances as such plotting those would clutter the visualization. I also made sure to drop any licenses with na in the Controlled Substance Schedule column as I didn’t want a unknown to be included in the visualization. For this visualization I wanted the viewer to be able to differentiate between licenses with differing Controlled Substance Schedule and as such I made the legend interactive where the viewer can click on the legend and the type clicked on will be highlighted. I think this will help the viewer differenciate bewteen the different licenses with varing access to controlled substances.</p>
+<h2 id="visualization-version-2">Visualization version 2</h2>
+<!-- <vegachart schema-url="/assets/json/IS457-fin-v2.json" style="width: 100%"></vegachart> -->
 
 <h2 id="the-data--methods">The Data &amp; Methods</h2>
 
 <!-- these are written in a combo of html and liquid -->
 
 <div class="left">
-<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/licenses_fall2022.csv">
+<a class="m-1 btn btn-outline-primary btn-2 " href="#">
   The Data
 </a>
 </div>
 
 <div class="right">
-<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/hwacc-y/hwacc-y.github.io/blob/main/python_notebooks/Workbook.ipynb">
+<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/hwacc-y/hwacc-y.github.io/blob/main/python_notebooks/">
   The Analysis
 </a>
 </div>
