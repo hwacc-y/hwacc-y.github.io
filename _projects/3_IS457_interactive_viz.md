@@ -20,14 +20,14 @@ Figure 1: Visualization of Average Bechdel Test Passes per Film Franchise
 
 ## Visualization 2
 <vegachart schema-url="{{ site.baseurl }}/assets/json/IS457-fin-viz2.json" style="width: 100%"></vegachart>
-Figure 2: Visualization of x v y
+Figure 2: Visualization of Average Bechdel Test Passes per Film Franchise and the Trend of Bechdel Test passes among Films within a Franchise.
 
 ## The Data & Methods
 
 <!-- these are written in a combo of html and liquid --> 
 
 <div class="left">
-{% include elements/button.html link="" text="The Data" %}
+{% include elements/button.html link="https://github.com/hwacc-y/hwacc-y.github.io/blob/main/assets/xlsx/IS457_viz_sets/IS%20457%20Franchise%20Dataset_exclusive.xlsx" text="The Data" %}
 </div>
 
 <div class="right">
