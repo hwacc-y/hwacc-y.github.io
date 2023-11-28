@@ -1,8 +1,8 @@
 ---
 name: IS 457 Final Project
 tools: [Python, HTML, vega-lite, Altair]
-image: assets/pngs/css_scatterplot.png
-description: This is my IS 457 visualization, currently still work in progress!
+image: assets/pngs/IS457_viz1.png
+description: This is my IS 457 final project, two interactive visualizations gauging how various film franchises respond to the Bechdel Test across the years.
 custom_js:
   - vega.min
   - vega-lite.min
