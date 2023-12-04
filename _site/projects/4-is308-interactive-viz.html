@@ -22,12 +22,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Nicholas&#39; Project Page">
-  <meta property="og:description" content="Welcome to my site! On this site I try to put up interesting projects that I have worked on whether its for class or outside of school.">
-  <meta property="og:image" content="assets/jpgs/default.jpg">
+  <meta property="og:title" content="IS 308 Final Project">
+  <meta property="og:description" content="This is my IS 308 final project, three interactive visualizations gauging how various film franchises respond to the Bechdel Test across the years.">
+  <meta property="og:image" content="assets/pngs/IS457_viz1.png">
 
-  <title>Nicholas&#39; Project Page</title>
-  <meta name="description" content="Welcome to my site! On this site I try to put up interesting projects that I have worked on whether its for class or outside of school.">
+  <title>IS 308 Final Project</title>
+  <meta name="description" content="This is my IS 308 final project, three interactive visualizations gauging how various film franchises respond to the Bechdel Test across the years.">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
 
@@ -60,7 +60,7 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/projects/">Projects</a>
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link active" href="/projects/">Projects</a>
 
       <a class="nav-item nav-link " href="/blog/">Blog</a>
 
@@ -73,22 +73,41 @@
   </div>
 
 </nav>
-    <div class="row justify-content-center align-items-center p-4">
-  <div class="col-lg-4 col-md-6 text-center mt-4">
+    <div class="col-lg-10 mx-auto mt-5 markdown-body">
+  <h1 id="is-308-visualizations">IS 308 Visualizations</h1>
 
-    <!-- Fine Circle Responsive Image -->
-    <div id="container" class="my-2">
-      <div id="dummy"></div>
-      <div id="element">
-        <img src="assets/jpgs/default.jpg" alt="Nicholas' Project Page" class="circle-image wow animated zoomIn" data-wow-delay=".1s" />
-      </div>
-    </div>
+<h2 id="visualization-1">Visualization 1</h2>
 
-    <p class="text-muted wow animated slideInUp" data-wow-delay=".15s">Welcome to my site! On this site I try to put up interesting projects that I have worked on whether its for class or outside of school.</p>
+<vegachart schema-url="/assets/json/IS308-fin-v1.json" style="width: 100%"></vegachart>
+<p>Figure 1: Visualization of</p>
 
-  </div>
+<h2 id="visualization-2">Visualization 2</h2>
+<p><img src="/assets/pngs/IS308_viz2.png" alt="image tooltip here" />
+Figure 2: Distribution of cultures in Films that non-alienates       <br />
+The pie chart above displays the percentages of the types of culture represented in our dataset given that asian culture is depicted as foreign, alienated, or “other.” 53.33%, a little more than half, of the chart is dominated by Chinese American representation in films. This means that within these top, impactful asian American films where asian culture is depicted as something negative and different, most of the films suffering from it are of Chinese representation. This significant percentage is followed by foreign Indian representation, foreign Korean representation, Japanese, then ambiguous. In conclusion, Chinese people in Asian American films are often depicted as foreign, alienated, or “other,” but other asian races often suffer from the poor representation as well.</p>
+
+<h2 id="visualization-3">Visualization 3</h2>
+<vegachart schema-url="/assets/json/IS308-fin-v3.json" style="width: 100%"></vegachart>
+<p>Figure 3: Audience and Critics Scores of Best Performing Films in each decade with context       <br />
+The grouped bar chart above displays the average audience scores and critics’ scores of movies from each decade. Both audience and critic scores were based on percentage ratings. There is no true discern-able pattern through our chart. However, critic scores tend to average higher than audience scores in every decade. The 1990s is an outlier due to the movie Mulan, released in 1998, having no public critic scores at all. In the 2000s, all 5 movies we took data from averaged out evenly, which tells us that asian representation in movies was doing very well in the 2000s. All scores were consistently high</p>
+<h2 id="the-data--methods">The Data &amp; Methods</h2>
+
+<!-- these are written in a combo of html and liquid -->
+
+<div class="left">
+<a class="m-1 btn btn-outline-primary btn-2 " href="#">
+  The Data
+</a>
 </div>
 
+<div class="right">
+<a class="m-1 btn btn-outline-primary btn-2 " href="#">
+  The Analysis
+</a>
+</div>
+
+
+</div>
   </main>
   <footer class="mt-auto py-3 text-center">
 
@@ -121,6 +140,17 @@
 
 </footer>
 
+
+<!-- Custom page specific js files -->
+  
+    <script src='/assets/js/vega.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/vega-lite.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/vega-embed.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/justcharts.js' type="text/javascript"></script>
+  
 
 
 

@@ -1,0 +1,41 @@
+---
+name: IS 308 Final Project
+tools: [Python, HTML, vega-lite, Altair]
+image: assets/pngs/IS457_viz1.png
+description: This is my IS 308 final project, three interactive visualizations gauging how various film franchises respond to the Bechdel Test across the years.
+custom_js:
+  - vega.min
+  - vega-lite.min
+  - vega-embed.min
+  - justcharts
+---
+
+
+# IS 308 Visualizations 
+
+## Visualization 1
+
+<vegachart schema-url="{{ site.baseurl }}/assets/json/IS308-fin-v1.json" style="width: 100%"></vegachart>
+Figure 1: Visualization of 
+
+## Visualization 2
+![image tooltip here](/assets/pngs/IS308_viz2.png)
+Figure 2: Distribution of cultures in Films that non-alienates         
+The pie chart above displays the percentages of the types of culture represented in our dataset given that asian culture is depicted as foreign, alienated, or “other.” 53.33%, a little more than half, of the chart is dominated by Chinese American representation in films. This means that within these top, impactful asian American films where asian culture is depicted as something negative and different, most of the films suffering from it are of Chinese representation. This significant percentage is followed by foreign Indian representation, foreign Korean representation, Japanese, then ambiguous. In conclusion, Chinese people in Asian American films are often depicted as foreign, alienated, or “other,” but other asian races often suffer from the poor representation as well.
+
+## Visualization 3
+<vegachart schema-url="{{ site.baseurl }}/assets/json/IS308-fin-v3.json" style="width: 100%"></vegachart>
+Figure 3: Audience and Critics Scores of Best Performing Films in each decade with context         
+The grouped bar chart above displays the average audience scores and critics’ scores of movies from each decade. Both audience and critic scores were based on percentage ratings. There is no true discern-able pattern through our chart. However, critic scores tend to average higher than audience scores in every decade. The 1990s is an outlier due to the movie Mulan, released in 1998, having no public critic scores at all. In the 2000s, all 5 movies we took data from averaged out evenly, which tells us that asian representation in movies was doing very well in the 2000s. All scores were consistently high
+## The Data & Methods
+
+<!-- these are written in a combo of html and liquid --> 
+
+<div class="left">
+{% include elements/button.html link="" text="The Data" %}
+</div>
+
+<div class="right">
+{% include elements/button.html link="" text="The Analysis" %}
+</div>
+
