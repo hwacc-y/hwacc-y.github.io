@@ -14,6 +14,7 @@ gem 'jekyll-sitemap'
 gem 'jekyll-paginate-v2'
 gem 'mini_magick'
 gem "kramdown-parser-gfm"
+gem "json"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 #gem "minima", "~> 2.0"
