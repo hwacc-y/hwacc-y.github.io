@@ -1,3 +1,15 @@
+# Project Page Overview
+This is the repo for my personal project page where I try to consolidate the various projects I've worked on in 
+the past along with some work in progress projects.This site still quite work in progress so keep that in mind. 
+I got this template from my IS 445 class and it has been really helpful so feel free to copy this template and make it your own.
+
+Also I have temporarily added JSON to the gem file as a hotfix to the Jekyll compiling issue I had on my Manjaro laptop. 
+Currently there doesn't seem to be an decent explanation for this bug but keep that in mind if you are looking into building
+your own Jekyll templates locally on arch systems.
+
+
+# ------------- Readme from orginal class template below -------------
+
 # Online CV Templete for IS445
 
 This is a resource for [IS445 as of Fall 2022](https://uiuc-ischool-dataviz.github.io/is445_bcubcg_fall2022/).  It is a way to host an online CV with interactive visualizations.  See the course page for more materials.
