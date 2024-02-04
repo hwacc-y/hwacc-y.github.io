@@ -8,7 +8,7 @@ Currently there doesn't seem to be an decent explanation for this bug but keep t
 your own Jekyll templates locally on arch systems.
 
 
-# ----------- Readme from orginal class template below -----------
+# --------- Readme from orginal class template below ---------
 
 # Online CV Templete for IS445
 
