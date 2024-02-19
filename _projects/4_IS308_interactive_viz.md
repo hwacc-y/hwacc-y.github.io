@@ -35,7 +35,7 @@ The grouped bar chart above displays the average audience scores and critics’ 
 <!-- these are written in a combo of html and liquid --> 
 
 <div class="left">
-{% include elements/button.html link="" text="The Data" %}
+{% include elements/button.html link="https://github.com/hwacc-y/hwacc-y.github.io/blob/main/assets/xlsx/IS_308_dataset.xlsx" text="The Data" %}
 </div>
 
 <div class="right">

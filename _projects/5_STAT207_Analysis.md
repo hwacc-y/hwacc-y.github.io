@@ -24,10 +24,13 @@ custom_js:
 <!-- these are written in a combo of html and liquid --> 
 
 <div class="left">
-{% include elements/button.html link="https://github.com/fivethirtyeight/data/tree/master/redlining" text="The Data" %}
+{% include elements/button.html 
+link="https://github.com/fivethirtyeight/data/tree/master/redlining" 
+text="The Data" %}
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/hwacc-y/hwacc-y.github.io/tree/main/python_notebooks" text="The Analysis" %}
+{% include elements/button.html 
+link="https://github.com/hwacc-y/hwacc-y.github.io/blob/main/python_notebooks/stat_207_project_report.ipynb" 
+text="The Analysis" %}
 </div>
-
