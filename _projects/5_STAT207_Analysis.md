@@ -28,6 +28,6 @@ custom_js:
 </div>
 
 <div class="right">
-{% include elements/button.html link="" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/hwacc-y/hwacc-y.github.io/tree/main/python_notebooks" text="The Analysis" %}
 </div>
 
