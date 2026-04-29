@@ -1,6 +1,6 @@
 ---
-name: STAT 207 Final Project
-tools: [Python, LDA Modeling, Web Scraping]
+name: IoT Domain Visualizations
+tools: [Python, LDA Modeling, Web Scraping, HTML, vega-lite, Altair]
 image: assets/pngs/IoT_viz1.png
 description: These are some visualizations I whipped up for an oral presentation
 custom_js:
@@ -14,7 +14,7 @@ custom_js:
 # IoT Domain  
 
 ## Visualization 1: 
-
+<vegachart schema-url="{{ site.baseurl }}/assets/json/IoT-Spring-2026-fin-v1.json" style="width: 100%"></vegachart>    
 ## Visualization 2:  
 
 ## Visualization 3: 
@@ -34,3 +34,4 @@ text="The Data" %}
 link="https://github.com/hwacc-y/hwacc-y.github.io/blob/main/python_notebooks" 
 text="The Analysis" %}
 </div>
+
